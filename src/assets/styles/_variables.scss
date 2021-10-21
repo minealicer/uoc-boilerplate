@@ -12,7 +12,6 @@ sans-serif,
 $font-family-serif: "Georgia",
 "Times New Roman",
 serif;
-$uoc-corporate: #000078;
-$uoc-masterbrand: #cecece;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$base-uno: #a19e9e;
+$base: color.scale($base-uno, $lightness: 70%);
 $mqMinWidth: 420px;
