@@ -16,3 +16,25 @@ body {
     font-family: $font-family-sans-serif;
     background-color: $base;
 }
+
+.background {
+    background-color: $base-dos;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+    padding-top: 4.5%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    color: $links;
+    text-decoration: none;
+}
