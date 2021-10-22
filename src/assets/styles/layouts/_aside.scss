@@ -1,0 +1,34 @@
+aside {
+    .aside__about {
+        p {
+            margin-top: 1rem;
+            font-size: $asidesize;
+        }
+    }
+    .aside__skills {
+        ul {
+            margin-left: 0;
+            padding: 0;
+            li {
+                margin-bottom: 0.7rem;
+                i {
+                    color: $links;
+                }
+                .bold {
+                    font-weight: $bolds;
+                }
+            }
+        }
+    }
+    .aside__languages {
+        p {
+            margin-top: 1rem;
+            i {
+                color: $links;
+            }
+            .bold {
+                font-weight: $bolds;
+            }
+        }
+    }
+}
