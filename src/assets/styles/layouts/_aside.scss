@@ -23,10 +23,10 @@ aside {
     .aside__languages {
         p {
             margin-top: 1rem;
-            i {
+            .fas {
                 color: $links;
             }
-            .bold {
+            span .bold {
                 font-weight: $bolds;
             }
         }
