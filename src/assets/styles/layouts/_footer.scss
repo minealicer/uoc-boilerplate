@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    height: 45px;
+    background-color: $links;
+    text-align: center;
+    .footer__text {
+        p {
+            padding-top: 10px;
+            font-size: $smallsize;
+            font-weight: $bolds;
+            color: $base-dos;
+        }
+    }
+}
