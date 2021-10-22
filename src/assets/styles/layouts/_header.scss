@@ -25,6 +25,7 @@ header {
     @media (max-width: $breakpoint-small) {
         display: flex;
         flex-direction: column;
+        margin-left: 2rem;
         img {
             margin-top: 1rem;
             margin-bottom: 1rem;
