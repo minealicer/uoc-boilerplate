@@ -22,4 +22,12 @@ header {
             border-radius: 50%;
         }
     }
+    @media (max-width: $breakpoint-small) {
+        display: flex;
+        flex-direction: column;
+        img {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
 }

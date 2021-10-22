@@ -32,6 +32,16 @@ body {
     padding-right: 90px;
     padding-top: 4.5%;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+    @media (max-width: $breakpoint-medium) {
+        width: 80vw;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    @media (max-width: $breakpoint-small) {
+        width: 90vw;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
 }
 
 a:link,

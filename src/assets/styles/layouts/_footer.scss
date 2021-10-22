@@ -11,4 +11,7 @@ footer {
             color: $base-dos;
         }
     }
+    @media (max-width: $breakpoint-medium) {
+        margin-top: 3.5rem;
+    }
 }

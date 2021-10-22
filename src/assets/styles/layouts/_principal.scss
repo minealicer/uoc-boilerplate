@@ -7,9 +7,16 @@
         .main__experience,
         .main__studies {
             padding-bottom: 1rem;
+            @media (max-width: $breakpoint-medium) {
+                padding-bottom: 0.5rem;
+            }
         }
     }
     aside {
         grid-column: 2;
+    }
+    @media (max-width: $breakpoint-medium) {
+        display: flex;
+        flex-direction: column;
     }
 }
