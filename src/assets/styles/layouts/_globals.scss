@@ -42,7 +42,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+i {
     margin: 0;
     padding: 0;
 }
@@ -71,6 +72,7 @@ h3 {
     color: $titulos;
     font-size: $restsize;
     font-weight: $bolds;
+    margin-top: 2rem;
 }
 
 h4 {

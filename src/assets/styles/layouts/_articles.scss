@@ -1,0 +1,27 @@
+.article {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    .article__container {
+        display: grid;
+        grid-template-columns: 1.50fr 1fr;
+        column-gap: 0.5rem;
+        .article__titulo {
+            grid-column: 1;
+            margin-bottom: 0.25rem;
+        }
+        .article__date {
+            grid-column: 2;
+            justify-self: right;
+            color: $titulos;
+        }
+    }
+    .article__link,
+    .article__exp {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.25rem;
+    }
+    .article__link {
+        font-size: $restsize;
+    }
+}
